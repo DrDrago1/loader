@@ -1,0 +1,110 @@
+body{
+    background-color: #333;
+}
+
+#load{
+    width: 320px;
+    height: 320px;
+   padding: 200px;
+}
+
+.loader{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 5px;
+    
+    
+
+}
+
+
+
+.marime{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 5px;
+}
+
+
+.a{
+    animation: a 2s 10;
+}
+
+@keyframes a{
+    from{
+       background-color: #333 ;
+    }
+    25%{
+        background-color: green ;
+    }
+    
+    75%{
+        background-color: #333;
+    }
+    to{
+       background-color: #333 ;
+    }
+}
+
+.b{
+    animation: b 2s 10;
+}
+@keyframes b{
+    from{
+       background-color: #333 ;
+    }
+    25%{
+        background-color: #333 ;
+    }
+    50%{
+        background-color:  green;
+    }
+    
+    to{
+       background-color:#333 ;
+    }
+}
+.d{
+    animation: d 2s 10;
+}
+@keyframes d{
+    from{
+       background-color: #333 ;
+    }
+    25%{
+        background-color: #333 ;
+    }
+    50%{
+        background-color: #333 ;
+    }
+    75%{
+        background-color: green;
+    }
+    to{
+       
+    }
+}
+.c{
+    animation: c 2s 10;
+}
+@keyframes c{
+    from{
+       
+    }
+    25%{
+        background-color: #333 ;
+    }
+    50%{
+        background-color: #333 ;
+    }
+   
+    75%{
+        background-color: #333;
+    }
+    to{
+       background-color:green ;
+    }
+}

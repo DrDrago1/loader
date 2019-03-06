@@ -1,0 +1,111 @@
+#principal{
+    width: 300px;
+    height: 300px;
+}
+.l5{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.p1{
+    background-color: white;
+    animation: p1 2.8s;
+    animation-iteration-count: 20;
+}
+@keyframes p1{
+    from{
+        background-color: white;
+    }
+    6%{
+        background-color: brown;
+    }
+    25%{
+         background-color: white;
+       transform: translateX(100px);
+    }
+    to{
+      
+    }
+}
+.p3{
+    background-color: white;
+    animation: p3 2.8s;
+    animation-delay: 0.7s;
+    animation-iteration-count: 20;
+}
+@keyframes p3{
+    from{
+        background-color: white;
+    }
+    6%{
+        background-color: brown;
+    }
+    25%{
+           background-color: white;
+       transform: translateY(100px);
+    }
+    to{
+    
+       
+       
+    }
+}
+.p9{
+    background-color: white;
+    animation: p9 2.8s;
+    animation-delay: 1.4s;
+    animation-iteration-count: 20;
+}
+@keyframes p9{
+    from{
+        background-color: white;
+    }
+    6%{
+        background-color: brown;
+    }
+    25%{
+         background-color: white;
+       transform: translateX(-100px);
+    }
+    to{
+      
+    }
+}
+.p7{
+    background-color: white;
+    animation: p7 2.8s;
+    animation-delay: 2.1s;
+    animation-iteration-count: 20;
+}
+@keyframes p7{
+    from{
+        background-color: white;
+    }
+    6%{
+        background-color: brown;
+    }
+    25%{
+        background-color: white;
+       transform: translateY(-100px)
+    }
+    to{
+       
+    }
+}
+.p5{
+    animation: p5 2.8s 10;
+}
+@keyframes p5{
+      from{
+          background-color: white;
+         border-radius: 100px;
+      }
+      50%{
+          background-color: rgb(223, 219, 219);
+          border-radius: 0px;
+      }
+      to{
+          background-color: white;
+          border-radius: 100px;
+      }
+}

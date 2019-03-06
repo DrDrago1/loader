@@ -1,0 +1,118 @@
+
+
+#first{
+    width: 550px;
+    height: 275px;
+    
+   
+}
+.top{
+    float: left;
+    animation: sus 10s 1;
+    animation-delay: 3.5s;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: #333;
+    transform: translateY(250px);
+}
+.a1{
+    animation: sus 3.5s 1;
+    animation-iteration-count: 20;
+}
+.a2{
+    animation: sus 3.5s 1;
+    animation-delay: 0.7s;
+    animation-iteration-count: 20;
+}
+.a3{
+    animation: sus 3.5s 1;
+    animation-delay: 1.4s;
+    animation-iteration-count: 20;
+}
+.a4{
+    animation: sus 3.5s 1;
+    animation-delay: 2.1s;
+    animation-iteration-count: 20;
+}
+.a5{
+    animation: sus 3.5s 1;
+    animation-delay: 2.8s;
+    animation-iteration-count: 20;
+}
+
+@keyframes sus{
+    from{
+        transform: translateY(250px);
+    }
+    30%{
+        transform: translateY(150px);
+        
+        background-color: blueviolet;
+    }
+    75%{
+        transform: translateY(250px);
+        
+    }
+    to{
+        
+        transform: translateY(250px);
+    }
+}
+#last{
+    
+    width: 550px;
+    height: 275px;
+}
+.bottom{
+    float: left;
+    animation: jos 10s 1;
+    animation-delay: 3.5s;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: #333;
+    
+}
+.b1{
+    animation: jos 3.5s 1;
+    animation-iteration-count: 20;
+}
+.b2{
+    animation: jos 3.5s 1;
+    animation-delay: 0.7s;
+    animation-iteration-count: 20;
+}
+.b3{
+    animation: jos 3.5s 1;
+    animation-delay: 1.4s;
+    animation-iteration-count: 20;
+}
+.b4{
+    animation: jos 3.5s 1;
+    animation-delay: 2.1s;
+    animation-iteration-count: 20;
+}
+.b5{
+    animation: jos 3.5s 1;
+    animation-delay: 2.8s;
+    animation-iteration-count: 20;
+}
+@keyframes jos{
+    from{
+        
+    }
+    30%{
+        transform: translateY(100px);
+        
+        background-color: rgb(81, 53, 107);
+    }
+    75%{
+        transform: translateY(0px);
+        
+    }
+    to{
+        
+        transform: translateY(0px);
+    }
+}
