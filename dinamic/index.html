@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+
+
+
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+ <header>
+ <nav>
+   <a href="">
+     <img src="images/logo-sma.png" alt="" />
+   </a>
+   <a href="#carusel">CAROSEL</a>
+   <a href="#features">FEATURES</a>
+   <a href="#testimonies">TESTIMONIES</a>
+   <a href=""><i class="fas fa-user"></i></a>
+ </nav>
+ </header>
+
+ <section id="carusel">
+
+  <div class="photo-carusel">
+   <div><img src="images/foto-1.jpeg" alt=""></div>
+   <div><img src="images/foto-2.jpeg" alt=""></div>
+   <div><img src="images/foto-3.jpeg" alt=""></div>
+   <div><img src="images/foto-4.jpeg" alt=""></div>
+   <div><img src="images/foto-5.jpeg" alt=""></div>
+  </div>
+
+ </section>
+ <section id="features">
+
+   <div class="fatures-carusel owl-theme owl-carousel">
+     <div class="item">
+       <h2>1</h2>
+       <p>Lorem ipsum dolor sit.</p>
+     </div>
+     <div class="item">
+       <h2>2</h2>
+       <p>Lorem ipsum dolor sit.</p>
+     </div>
+     <div class="item">
+       <h2>3</h2>
+       <p>Lorem ipsum dolor sit.</p>
+     </div>
+     <div class="item">
+       <h2>4</h2>
+       <p>Lorem ipsum dolor sit.</p>
+     </div>
+     <div class="item">
+       <h2>5</h2>
+       <p>Lorem ipsum dolor sit.</p>
+     </div>
+   </div>
+
+ </section>
+ <section id="testimonies">
+testimonies
+ </section>
+<footer>
+  footer
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.photo-carusel').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  dots: true,
+  fade: true
+
+});
+});
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+$(".fatures-carusel ").owlCarousel({
+  loop: true,
+  center: true
+});
+});
+</script>
+
+
+
+
+</body>
+</html>

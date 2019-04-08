@@ -1,0 +1,51 @@
+/*
+#D95B59
+#598CD9
+#D957BF
+
+#4B4C4F
+#383838
+*/
+
+
+body{
+  width: 1200px;
+  margin: auto;
+  font-family: arial;
+  background-color: #555;
+}
+header nav{
+  background-image: linear-gradient(#4B4C4F,#383838);
+  padding: 1em;
+}
+header nav a{
+  color: #598CD9;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.5em;
+}
+header nav img{
+  padding-right: 50px;
+}
+section{
+  height: 100vh;
+
+}
+.photo-carusel div img{
+  margin: auto;
+}
+footer{
+  background-color: #383838;
+}
+.slick-dots li button,
+::before{
+
+  font-size: 20px !important;
+
+}
+.slick-dots li ,
+::before{
+
+
+}
